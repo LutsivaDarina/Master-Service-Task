@@ -1157,23 +1157,6 @@ input:checked + .switch::before {
   height: 1px;
 }
 /*отзывы*/
-.column-long {
-  display: flex;
-  justify-content: space-between;
-}
-.review {
-  display: flex;
-  margin-right: 167px;
-  width: 100px;
-}
-.review-data {
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-.review-icon-like {
-  margin-left: 23px;
-  margin-top: -15px;
-}
 
 /**********************************/
 .part4-content {
@@ -1199,6 +1182,23 @@ input:checked + .switch::before {
 .message {
   display: flex;
   margin-left: 150px;
+}
+.review-data {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.review-icon-like {
+  margin-left: 23px;
+  margin-top: -15px;
+}
+.column-long {
+  display: flex;
+  justify-content: space-between;
+}
+.review {
+  display: flex;
+  margin-right: 167px;
+  width: 100px;
 }
 .review-data {
   margin-top: 5px;
