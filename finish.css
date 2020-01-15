@@ -97,6 +97,9 @@ ul {
 .big-input {
   width: 320px;
 }
+.medium-input {
+  width: 266px;
+}
 .smal-input {
   width: 150px;
 }
@@ -124,6 +127,16 @@ ul {
 .btn-arrow-down-input-small {
   top: -30px;
   margin-left: 120px;
+}
+/*для среднего вниз*/
+.btn-arrow-down-input-medium {
+  top: -30px;
+  margin-left: 236px;
+}
+/*для среднего вправо*/
+.btn-arrow-down-input-medium-right {
+  top: -30px;
+  margin-left: 234px;
 }
 .btn-arrow-down-input-big {
   top: -30px;
