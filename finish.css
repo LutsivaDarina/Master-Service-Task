@@ -803,6 +803,14 @@ input:checked + .switch::before {
   margin-bottom: 20px;
   color: rgba(31, 32, 65, 0.5);
 }
+/*отображение ссылок*/
+.ul-line2_p > li > a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+}
 .line-navigation {
   margin-right: 100px;
 }
@@ -824,6 +832,7 @@ input:checked + .switch::before {
   border-radius: 4px;
   padding: 12px 111px 8px 15px;
 }
+
 .footer-content {
   display: flex;
   justify-content: space-between;
