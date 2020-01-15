@@ -203,6 +203,7 @@ ul {
   padding: 0;
   font-weight: bold;
 }
+.button-text,
 .button-text-violet:hover {
   width: 61px;
   height: 15px;
@@ -594,6 +595,7 @@ input:checked + .switch::before {
   color: white;
   font-weight: bold;
   font-size: 12px;
+  text-decoration: none;
 }
 .dropdown-buttons-сalendar {
   padding-top: 20px;
