@@ -203,7 +203,7 @@ ul {
   padding: 0;
   font-weight: bold;
 }
-.button-text {
+.button-text-violet:hover {
   width: 61px;
   height: 15px;
   font-weight: bold;
@@ -222,6 +222,9 @@ ul {
 }
 .button-opacity {
   margin-left: 15px;
+}
+.button-color:hover,
+.button-border:hover {
   opacity: 0.5;
 }
 /*отступы так нельзя :)*/
