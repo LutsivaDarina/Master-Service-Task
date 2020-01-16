@@ -944,7 +944,7 @@ input:checked + .switch::before {
 .circle2 {
   position: absolute;
   margin-top: -5px;
-  margin-left: 50px;
+  margin-left: 45px;
   z-index: 8;
 }
 /*стили кнопки*/
