@@ -259,15 +259,15 @@ ul {
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
-.checkbox-checkmark:after {
-  content: "✓";
+/*.checkbox-checkmark:after {
+  content: "a";
   position: absolute;
   display: none;
   color: #bc9cff;
   font-weight: bold;
   font-size: 16px;
 }
-
+*/
 /* Show the checkmark when checked */
 .checkbox-container > .checkbox-input:checked ~ .checkbox-checkmark:after {
   display: block;
@@ -1233,4 +1233,58 @@ input:checked + .switch::before {
 .review-icon-like {
   margin-left: 23px;
   margin-top: -15px;
+}
+/*для чекбокса с галочкой*/
+[id^="c"] {
+  display: none;
+}
+[id^="c"] + label {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+[id^="c"] + label:hover {
+  border: 1px solid #bc9cff;
+}
+[id^="c"]:checked + label span {
+  position: relative;
+  display: inline-block;
+  margin-left: -3px;
+  margin-bottom: 6px;
+}
+[id^="c"]:checked + label span:before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  width: 10px;
+  height: 3px;
+  margin-bottom: 4px;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  -webkit-transform: rotate(50deg);
+  transform: rotate(50deg);
+}
+[id^="c"]:checked + label span:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 10px;
+  height: 3px;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  -webkit-transform: rotate(-50deg);
+  transform: rotate(-50deg);
+}
+.checkbox-variant2,
+.chekbox-new {
+  display: flex;
+  margin-bottom: 5px;
+}
+.chekbox-new-p {
+  margin-left: 15px;
+  color: rgba(31, 32, 65, 0.5);
 }
