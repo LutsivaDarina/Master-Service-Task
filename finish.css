@@ -189,7 +189,8 @@ ul {
   text-transform: uppercase;
   color: #ffffff;
 }
-.button-text-violet {
+.button-text-violet,
+.button-text-violet-card3 {
   width: 67px;
   height: 15px;
   font-weight: bold;
@@ -535,6 +536,14 @@ input:checked + .switch::before {
 .number-888 {
   margin: 0 5px;
   font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+
+  /* Dark 100% */
+
+  color: #1f2041;
 }
 .card2-header-left-luks {
   font-weight: bold;
@@ -699,6 +708,8 @@ input:checked + .switch::before {
 /*полосочка*/
 .hr-card6 {
   background: rgba(31, 32, 65, 0.1);
+  height: 1px;
+  border: none;
 }
 /*рейтинг*/
 .card6-stars-content {
